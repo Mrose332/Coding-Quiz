@@ -1,0 +1,53 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-image: url(../images/greybackground.jpg)
+}
+
+header { 
+    display: flex; 
+    justify-content: space-between;
+
+    background-color:rgb(127, 143, 143);
+    margin: 0px;
+    padding: 2%;
+}
+
+h1 {
+    font-size: x-large;
+    background-color:rgb(243, 243, 243);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+h2 {
+    font-size: large;
+    background-color:rgb(238, 238, 238);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+button {
+    border: none;
+    background-color:rgb(75, 92, 83);
+    padding: .5rem; 
+    color: navajowhite;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+.center-content {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#init-btn {
+    margin-top: 5vh;
+}
+
+ul li {
+    list-style: none;
+}
