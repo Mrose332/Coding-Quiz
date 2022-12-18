@@ -31,7 +31,8 @@ THEN I can save my initials and score
 
 The project was uploaded to GitHub at the following repository: 
 
-git@github.com:Mrose332/Coding-Quiz.git
+
+
 
 You can access the deployed application with the GitHub Pages link:
 
