@@ -36,13 +36,13 @@ function randomizeQuiz(fullQuiz) {
 var fullQuiz = [question1, question2, question3, question4, question5];
 var randQuiz = randomizeQuiz(fullQuiz); 
 
-//Initialize quiz on button press
+
 initBtn.addEventListener("click", function() {
     setTimer();
     buildQuizElements(questionsAnswered);
 })
 
-//Resets the quiz-element div and builds the quiz question in its place
+
 function buildQuizElements(questionsAnswered) {
     quizDocument.innerHTML = null;
     var promptHeader = document.createElement("h2");
@@ -86,7 +86,7 @@ if (secs > 0) {
         secs--;
         setTimeout('Decrement()', 1000);
     }
-//Checks to see if the id of the pressed button is equivalent to the 
+
 function checkAnswer(buttonId) {
     var feedbackEl = document.createElement("p"); 
     var penalty = 15; 
@@ -101,7 +101,7 @@ function checkAnswer(buttonId) {
         feedbackEl.textContent = "Incorrect."; 
     }
 
-    //Increments question counter and checks whether there is another question to build from. 
+    
     questionsAnswered++;
     if(questionsAnswered < randQuiz.length){
         buildQuizElements(questionsAnswered); 
