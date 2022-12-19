@@ -81,11 +81,8 @@ function setTimer(){
             clearInterval(timerInterval);
         }
       }, 1000);
+
 }
-if (secs > 0) {
-        secs--;
-        setTimeout('Decrement()', 1000);
-    }
 
 function checkAnswer(buttonId) {
     var feedbackEl = document.createElement("p"); 

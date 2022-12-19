@@ -36,6 +36,8 @@ https://github.com/Mrose332/Coding-Quiz.git
 
 You can access the deployed application with the GitHub Pages link:
 
+https://mrose332.github.io/Coding-Quiz/
+
 ## Resources
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
