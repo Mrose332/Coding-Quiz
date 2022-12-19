@@ -86,7 +86,7 @@ function setTimer(){
 
 function checkAnswer(buttonId) {
     var feedbackEl = document.createElement("p"); 
-   
+    var penalty = 0; 
     
     //Checks for right answer and gives feedback
     if(buttonId == randQuiz[questionsAnswered].correctAnswer) {
