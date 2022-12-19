@@ -66,7 +66,7 @@ function buildQuizElements(questionsAnswered) {
     }
 }
 
-var secondsLeft = 60; 
+var secondsLeft = 100; 
 //  Begin timer countdown 
 function setTimer(){
     var timerInterval = setInterval(function() {
