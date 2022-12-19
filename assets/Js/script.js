@@ -73,7 +73,7 @@ function setTimer(){
         secondsLeft--;
         timeEl.textContent = "Timer: " + secondsLeft;
 
-        if(secondsLeft === 0) {
+        if(-secondsLeft === 0) {
           clearInterval(timerInterval);
           endGame();
         }
@@ -86,7 +86,7 @@ function setTimer(){
 
 function checkAnswer(buttonId) {
     var feedbackEl = document.createElement("p"); 
-    var penalty = 15; 
+   
     
     //Checks for right answer and gives feedback
     if(buttonId == randQuiz[questionsAnswered].correctAnswer) {
